@@ -14,13 +14,13 @@ Pull docker image `docker pull dwdraju/alpine-curl-jq`
 **curl**
 
 ```
-docker run --rm mtandersson/alpine-curl-jq curl https://www.google.com
+docker run --rm mtand/alpine-curl-jq curl https://www.google.com
 ```
 
 **curl, jq**
 
 ```
-docker run --rm mtandersson/alpine-curl-jq sh -c 'curl -s https://api.github.com/repos/github/hub/forks | jq .[].id'
+docker run --rm mtand/alpine-curl-jq sh -c 'curl -s https://api.github.com/repos/github/hub/forks | jq .[].id'
 ```
 
 ### Credit
